@@ -15,7 +15,7 @@ python login_workmarket.py
 
 The WorkMarket script ensures the login is successful and verfies each search result contains the string 'test'.
 
-The login_workmarket scripts validates the the following login page responses:
+The login_workmarket scripts validates the following login page responses:
 
   - Invalid user name or password.
   - If we have your email address on file, we've sent you password reset instructions. (reset password)
