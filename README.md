@@ -13,7 +13,7 @@ python WorkMarket.py
 python login_workmarket.py
 ```
 
-The WorkMarket script ensures the login is successful and verfies each search result contains the string 'test'.
+The WorkMarket script ensures the login is successful and verifies each search result contains the string 'test'.
 
 The login_workmarket scripts validates the following login page responses:
 
