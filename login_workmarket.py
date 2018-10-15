@@ -32,5 +32,7 @@ driver.find_element_by_id("login-email").send_keys("qa+candidatetest@workmarket.
 driver.find_element_by_id("login-password").send_keys("candidate123")
 driver.find_element_by_class_name('mdl-button__ripple-container').click()
 
+# if the login is successful the responses below can be ignored
+
 assert 'reCAPTCHA response is required' in driver.page_source 
 assert 'You have entered the wrong password too many times and your account has been locked. Please reset your password to unlock your account' in driver.page_source 
