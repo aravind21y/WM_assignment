@@ -18,5 +18,5 @@ The WorkMarket script ensures the login is successful and verfies each search re
 The login_workmarket scripts validates the the following login page responses:
 
   - Invalid user name or password.
-  - If we have your email address on file, we've sent you password reset instructions.
+  - If we have your email address on file, we've sent you password reset instructions. (reset password)
   - reCAPTCHA response is required
